@@ -30,3 +30,28 @@
     transform: rotate(360deg);
   }
 }
+
+
+.boxes-container {
+	display: grid;
+	width: 150px;
+	height: 150px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	border: 1px solid black;
+	padding: .2rem;
+}
+
+.box {
+	border: 2px solid black;
+	margin: 10%;
+}
+
+.board {
+	display: grid;
+	width: 220px;
+	height: 220px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: .5rem;
+	grid-template-rows: 1fr 1fr 1fr;
+}
